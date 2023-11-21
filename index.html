@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/mobile/image-transform.jpg">
+  
+  <title>| Sunnyside agency landing page</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="section1">
+  <nav class="navbar">
+    <img src="./images/logo.svg" alt="site logo">
+    <div class="burger" >
+      <img src="./images/icon-hamburger.svg" alt="hamburger" onclick="MenuBtn()"/>
+    </div> 
+    <ul class="navlist " id="navlist1">
+      <div class="side-symb"></div>
+      <li><a href="#">About</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+    <h1>We are creatives</h1>
+    <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrow">
+  </div>
+
+  <div class="section2">
+    <div class="boxes box2"></div>
+    <div class="boxes box1">
+      <div>
+        <h3>Transform your brand</h3>
+      <p>We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <button class="btn">learn more</button>
+      </div>
+    </div>
+    
+    <div class="boxes box3"></div>
+    <div class="boxes box4">
+      <div>
+        <h3>Stand out to the right audience</h3>
+      <p>  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <button class="btn">learn more</button>
+      </div>
+    </div>
+    <div class="boxes box5">
+      <div>
+        <h4>Graphic design</h4>
+      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+    </div>
+    <div class="boxes box6">
+      <div>
+        <h4>Photography</h4>
+      <p>  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section3">
+    <h2>Client testimonials</h2>
+    <div class="items item1">
+      <img src="./images/image-emily.jpg" alt="user dp">
+      <p class="description">  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.      </p>
+      <div>
+        <p class="name">Emily R.</p>
+        <p class="work">Marketing Director</p>
+      </div>
+    </div>
+    <div class="items item2">
+      <img src="./images/image-thomas.jpg" alt="user dp">
+      <p class="description">  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.      </p>
+      <div>
+        <p class="name">Thomas S.</p>
+        <p class="work">Chief Operating Officer</p>
+      </div>
+    </div>
+    <div class="items item3">
+      <img src="./images/image-jennie.jpg" alt="user dp">
+      <p class="description">  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!      </p>
+      <div>
+        <p class="name">Jennie F.</p>
+        <p class="work">Business Owner</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section4">
+    <div class="showcase"></div>
+    <div class="showcase"></div>
+    <div class="showcase"></div>
+    <div class="showcase"></div>
+  </div>
+
+  <div class="section5">
+    <div class="foot-logo">
+      sunnyside
+    </div>
+    <ul class="foot-nav">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Project</a></li>
+    </ul>
+    <div class="social-media">
+      <a href="#"><img src="./images/icon-facebook.svg" alt="facebook logo"></a>
+      <a href="#"><img src="./images/icon-instagram.svg" alt="instagram page"></a>
+      <a href="#"><img src="./images/icon-twitter.svg" alt="twitter page"></a>
+      <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest page"></a>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.github.com/blackcat-web/" target="_blank">Rakesh Deep</a>.
+    </div>
+  </div>
+
+</body>
+<script>
+  function MenuBtn(){
+   const toggleMenu =  document.getElementById('navlist1');
+   toggleMenu.classList.toggle('none');
+   toggleMenu.style = "top : 10%";
+  }
+</script>
+</html>
